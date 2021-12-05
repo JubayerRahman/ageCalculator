@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+form{
+    background-color: rgba(243, 240, 240, 0.945);
+    border-radius: 20px;
+    margin: 30px 30px 30px 30px;
+    padding: 20px 20px 20px 20px;
+}
+h2{
+    text-align: left;
+    margin-left: 35px;
+    color: yellowgreen;
+}
+input{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+button{
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cornflowerblue;
+    border-radius: 25px;
+    padding: 20px;
+    animation: ease-in-out;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: darkgreen;
+}
