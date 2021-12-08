@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Age Calculator</title>
+</head>
+<body>
+    <form>
+        <br>
+        <h1>Age Calculator:</h1>
+        <h2>Enter your date of birth:</h2>
+        <br>
+        <label>Day</label>
+        <input id="day" type="number" max="31" min="0" value="0" placeholder="day" required/>
+        <label>Month</label>
+        <input id="month" type="number" max="12" min="0" value="0" placeholder="month" required/>
+        <label>Year</label>
+        <input id="year" type="number"  min="1800" max="4000" value="0" placeholder="year" required/>
+
+        <br>
+
+    
+        <h2>Current date:</h2>
+        <label>Day</label>
+        <input id="day1" type="number" max="31" min="0" value="0" placeholder="day" required/>
+        <label>month</label>
+        <input id="month1" type="number" max="12" min="0" value="0" placeholder="month" required/>
+        <label>Year</label>
+        <input id="year1" type="number" min="1800" max="4000" value="0"  placeholder="year" required/>
+        <br><br>
+        <br>
+        <br>
+
+     </form>
+
+     <button id="submit">SUBMIT</button>
+
+     <p id="statement"></p>
+     <p id="ifYear"></p>
+
+     <p id="year350"></p>
+        <p id="month360"> </p>
+        <p id="day360"></p>
+   
+
+
+
+
+    <!-- this is the js for hi page -->
+    <script src="index.js"></script>
+</body>
+</html>
